@@ -54,10 +54,11 @@ body {
   border-top-right-radius: 10px;
 }
 
+
 .btn {
   display: block;
   margin: 0 auto;
-  padding: 15px;
+  padding: 8px 10px;
   color: hsl(0, 0%, 95%);
   background: none;
   border: 1px solid hsl(0, 0%, 95%);
