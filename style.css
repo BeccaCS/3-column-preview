@@ -8,42 +8,62 @@
 }
 
 h1 {
-  padding-top: 40px;
+  padding-left: 15px;
+  margin-left: 20px;
+  margin-top: 40px;
   text-align: left;
+  color: hsla(0, 0%, 100%, 0.75);
 }
+
+p {
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+  padding: 0 30px;
+  line-height: 1.5;
+  text-align: start;
+}
+
 .container {
   background-color: #ffffff;
 }
 
 .content {
+  width: 60%;
   display: flex;
   margin: 50px auto;
-  padding: 40px;
-  text-align: center;
 }
 
 .icon {
-  float: left;
+  display: block;
+  padding: 30px 20px 0px;
 }
 
 .sedan {
   background-color: hsl(31, 77%, 52%);
-  padding: 20px;
-  margin-top: 40px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
 
 .suv {
   background-color: hsl(184, 100%, 22%);
-  padding: 20px;
-  margin-top: 40px;
 }
 
 .luxury {
   background-color: hsl(179, 100%, 13%);
-  padding: 20px;
-  margin-top: 40px;
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
+}
+
+.btn {
+  display: block;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
