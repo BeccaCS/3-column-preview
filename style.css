@@ -58,6 +58,13 @@ body {
   display: block;
   margin: 0 auto;
   padding: 15px;
+  color: hsl(0, 0%, 95%);
+  background: none;
+  border: 1px solid hsl(0, 0%, 95%);
+  border-radius: 20px;
+}
+.btn:hover {
+  cursor: pointer;
 }
 
 .attribution {
