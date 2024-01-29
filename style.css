@@ -39,6 +39,7 @@
   color: #ffffff;
   border: 1px solid white;
   background: none;
+  cursor: pointer;
 }
 
 .attribution {
